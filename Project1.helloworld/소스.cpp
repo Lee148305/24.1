@@ -6,7 +6,7 @@ int main(void)
 	char calcul;
 
 	printf("사칙연산 입력(정수): ");
-	scanf("%d %c %d", &num1, &calcul, &num2);
+	scanf_s("%d %c %d", &num1, &calcul, sizeof(calcul), & num2);
 
 	if (calcul == '+')
 	{
