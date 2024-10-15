@@ -8,21 +8,19 @@ int main(void)
 	printf("사칙연산 입력(정수): ");
 	scanf_s("%d %c %d", &num1, &calcul, sizeof(calcul), & num2);
 
-	if (calcul == '+')
-	{
+	switch (calcul) {
+	case '+':
 		printf("%d+%d=%d\n", num1, num2, num1+num2);
-	}
-	else if (calcul == '-')
-	{
+		break;
+	case '-':
 		printf("%d-%d=%d\n", num1, num2, num1-num2);
-	}
-	else if (calcul == '*')
-	{
+		break;
+	case '*':
 		printf("%d*%d=%d\n", num1, num2, num1*num2);
-	}
-	else if (calcul == '/')
-	{
+		break;
+	case '/':
 		printf("%d/%d=%d\n", num1, num2, num1/num2);
+		break;
 	}
 	return 0;
 }
