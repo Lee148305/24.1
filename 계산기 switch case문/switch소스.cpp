@@ -21,6 +21,8 @@ int main(void)
 	case '/':
 		printf("%d/%d=%d\n", num1, num2, num1 / num2);
 		break;
+	default:
+		printf("잘못된 연산 입력");
 	}
 	return 0;
 }
