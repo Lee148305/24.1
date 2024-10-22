@@ -1,0 +1,4 @@
+﻿  if문.cpp
+  switch문.cpp
+  코드를 생성하고 있습니다...
+C:\Users\User\Documents\GitHub\24.1\짝수홀수 if문\switch문.cpp(7,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
