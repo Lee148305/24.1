@@ -1,0 +1,5 @@
+﻿  do-while문.cpp
+  while문.cpp
+  코드를 생성하고 있습니다...
+while문.obj : error LNK2005: main이(가) do-while문.obj에 이미 정의되어 있습니다.
+C:\Users\Cju\Documents\GitHub\24.1\최대공약수 while문\x64\Debug\최대공약수 while문.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
