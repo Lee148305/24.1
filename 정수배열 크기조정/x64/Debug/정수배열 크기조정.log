@@ -1,0 +1,6 @@
+﻿  main소스.cpp
+C:\Users\Cju\Documents\GitHub\24.1\정수배열 크기조정\main소스.cpp(44,31): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\Cju\Documents\GitHub\24.1\정수배열 크기조정\main소스.cpp(44,31): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+C:\Users\Cju\Documents\GitHub\24.1\정수배열 크기조정\main소스.cpp(65,31): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\Cju\Documents\GitHub\24.1\정수배열 크기조정\main소스.cpp(65,31): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+  정수배열 크기조정.vcxproj -> C:\Users\Cju\Documents\GitHub\24.1\정수배열 크기조정\x64\Debug\정수배열 크기조정.exe
