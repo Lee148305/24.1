@@ -24,8 +24,8 @@ int main(void)
 
     printf("Before reversing words: \"%s\"\n", input);
 
-    char* wordStart = NULL;    // 단어를 하나씩 분리
-    char* temp = input;
+    char * wordStart = NULL;    // 단어를 하나씩 분리
+    char * temp = input;
 
     while (*temp)
     {
