@@ -1,2 +1,31 @@
 ﻿  main.cpp
-  [Report#5]파일입출력.vcxproj -> C:\Users\User\Documents\GitHub\24.1\[Report#5]파일입출력\x64\Debug\[Report#5]파일입출력.exe
+C:\Users\User\Documents\GitHub\24.1\[Report(55,18): error C2660: 'fopen_s': 함수는 2개의 인수를 사용하지 않습니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdio.h(102,34):
+      'fopen_s' 선언을 참조하십시오.
+      C:\Users\User\Documents\GitHub\24.1\[Report(55,18):
+      인수 목록 '(const char *, const char [2])'을(를) 일치시키는 동안
+  
+C:\Users\User\Documents\GitHub\24.1\[Report(55,16): error C2440: '초기화 중': 'errno_t'에서 'FILE *'(으)로 변환할 수 없습니다.
+      C:\Users\User\Documents\GitHub\24.1\[Report(55,16):
+      정수 계열 형식에서 포인터 형식으로 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+  
+C:\Users\User\Documents\GitHub\24.1\[Report(62,27): warning C4477: 'fscanf_s' : 서식 문자열 '%s'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int *'입니다.
+      C:\Users\User\Documents\GitHub\24.1\[Report(62,27):
+      이 인수는 버퍼 크기로 사용됩니다.
+  
+C:\Users\User\Documents\GitHub\24.1\[Report(62,27): warning C4473: 'fscanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      C:\Users\User\Documents\GitHub\24.1\[Report(62,27):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 7개 필요하지만 6개가 제공되었습니다.
+      C:\Users\User\Documents\GitHub\24.1\[Report(62,27):
+      누락된 variadic 인수 7이(가) 서식 문자열 '%d'에 필요합니다.
+  
+C:\Users\User\Documents\GitHub\24.1\[Report(151,18): error C2660: 'fopen_s': 함수는 2개의 인수를 사용하지 않습니다.
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdio.h(102,34):
+      'fopen_s' 선언을 참조하십시오.
+      C:\Users\User\Documents\GitHub\24.1\[Report(151,18):
+      인수 목록 '(const char *, const char [2])'을(를) 일치시키는 동안
+  
+C:\Users\User\Documents\GitHub\24.1\[Report(151,16): error C2440: '초기화 중': 'errno_t'에서 'FILE *'(으)로 변환할 수 없습니다.
+      C:\Users\User\Documents\GitHub\24.1\[Report(151,16):
+      정수 계열 형식에서 포인터 형식으로 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+  
